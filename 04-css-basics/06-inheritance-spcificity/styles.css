@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+.container h1 {
+  color: aquamarine;
+}
+
+h1 {
+  color: blue;
+}
+/* Specificity priority */
+/* 1. InLine CSS (style attribute) not recommended */
+/* 2. ID # */
+/* 3. Class . */
+/* 4. Element */
+
+/* !important , highest priority. */
+
+/* h1 {
+  color: blue !important;
+} */

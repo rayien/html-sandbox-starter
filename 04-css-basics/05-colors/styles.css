@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+}
+
+.sporty {
+  color: red;
+  border: 2px solid blue;
+}
+
+/* Hex Values */
+.casual {
+  color: #e04553;
+}
+
+
+

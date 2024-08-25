@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Labels & Text Based Input Attributes</h1>
+
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <!-- placeholder, gives a text to provide instructions -->
+        <!-- value, provides a default value when page loaded -->
+        <!-- name, looks like it functions similiar to a variable -->
+        <!-- required, forces uer to enter before submit(action)-->
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter name"
+          value="John Doe"
+          name="name"
+          required
+        />
+      </div>
+
+      <!-- disabled greys out the input field -->
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Email"
+          required
+          disabled
+        />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter Password"
+          required
+          minlength="3"
+          maxlength="10"
+        />
+      </div>
+      <div>
+        <!-- <input type="submit" value="Submit" /> -->
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

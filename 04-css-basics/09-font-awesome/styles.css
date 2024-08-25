@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* FONT AWESOME is an external site to provide Icons */
+
+/* cdnjs (Content Delivery network) for library of resources */
+
+/* Higher priority it looks like */
+.fa-facebook {
+  color: blue;
+  font-size: 50px;
+}
+
+/* Lower priority */
+.socialMedia {
+  color: red;
+  font-size: 100px;
+}
+
+

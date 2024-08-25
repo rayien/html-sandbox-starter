@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* If width of browser is less than E.g. 1200px, then background color is in effect */
+@media screen and (max-width: 1200px) {
+  .widescreen {
+    background: coral;
+  }
+}
+
+@media (max-width: 992px) {
+  .normal {
+    background: lightblue;
+  }
+}
+
+@media (max-width: 768px) {
+  .tablet {
+    background: lightgreen;
+  }
+}
+
+@media (max-width: 576px) {
+  .smartphone {
+    background: lightcoral;
+  }
+}
+
+@media (orientation: landscape) {
+  .landscape {
+    background: lightgoldenrodyellow;
+  }
+}
+
+@media (max-height: 500px) {
+  .height {
+    background: lightseagreen;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  body {
+    background: #333;
+  }
+}

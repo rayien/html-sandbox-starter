@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Looks like you can set 2 classes to div */
+
+.box {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border: 3px solid green;
+  margin: 20px;
+}
+
+.box-1 {
+  width: 200px;
+  height: 100px;
+  /* when limits box, there may be overflow as the limit is too small.   
+  overflow modfies the overflow of content */
+  overflow: scroll;
+}
+
+.box-2 p {
+  width: 50%;
+
+}
+
+.box-3 {
+  max-width: 800px;
+  /* recommendation to use max-width for make it suitable for mobile devices */
+  /* min-width: 500px; */
+}

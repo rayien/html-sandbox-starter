@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  /* Non responsive design */
+  /* width: 1100px; */
+
+  /* Responsive design */
+  width: 80%;
+  /* OR */
+  max-width: 1100px;
+  /*  */
+  margin: 50px auto;
+  padding: 20px;
+}
+
+
+img  {
+  /* Responsive design */
+  width: 100%;
+}

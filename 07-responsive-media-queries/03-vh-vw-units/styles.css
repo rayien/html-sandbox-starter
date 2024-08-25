@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: coral;
+  /* Depending on the view port, 100 is 100slices of current view, (100%) 
+  Scroll down means no extension and will be white */
+  height: 50vh;
+  width: 50vw;
+}
+
+.container h1 {
+  /* 7slices, 7% of current view */
+  font-size: 7vw;
+}

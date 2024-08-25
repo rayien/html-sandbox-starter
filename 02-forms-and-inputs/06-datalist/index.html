@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Datalist</h1>
+    <!-- General List select -->
+    <label for="favLanguage">Fav Programming Languages</label>
+    <input list="languages" id="favLanguage" name="favLanguage" />
+    <datalist id="languages">
+      <option value="JavaScript"></option>
+      <option value="PHP"></option>
+      <option value="Python"></option>
+      <option value="Ruby"></option>
+      <option value="C"></option>
+      <option value="C#"></option>
+    </datalist>
+
+    <!-- Time, will product other with drop time menu -->
+    <input type="time" list="popularHours" />
+    <datalist id="popularHours">
+      <option value="10:00"></option>
+      <option value="11:00"></option>
+    </datalist>
+
+    <label for="tick">Tip Amount</label>
+    <input
+      type="range"
+      name="tick"
+      id="tick"
+      list="tickmarks"
+      min="0"
+      max="60"
+    />
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30"></option>
+      <option value="40"></option>
+    </datalist>
+
+    <!-- Colours -->
+    <label for="colours">Pick a colour</label>
+    <input type="color" id="colours" list="redColours" />
+    <datalist id="redColours">
+      <option value="#800000"></option>
+      <option value="#8B0000"></option>
+      <option value="#A52A2A"></option>
+    </datalist>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* COMMONLY USED*/
+/* Hover, when hovering over the link text it changes color */
+a:hover {
+  color: red;
+}
+
+/* Active , when clicked and activated*/
+a:active {
+  background: purple;
+}
+
+/* RARELY USED */
+/* Focus, after clicking it. When clicking anywhere else it is not focus anymore */
+a:focus {
+  background: yellow;
+}
+
+/* Visited, already visited the page */
+a:visited {
+  color: pink;
+}
+

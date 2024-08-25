@@ -1,0 +1,41 @@
+body {
+    font-family: "lato";
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+header {
+    color: white;
+    background-color: purple;
+    
+}
+
+h1 {
+    text-align: center;
+    text-indent: 20px;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mainmenu {
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+    text-indent: 10;
+}
+
+.lead {
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 20px;
+}

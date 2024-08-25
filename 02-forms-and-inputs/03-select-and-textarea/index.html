@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Select & Textarea</h1>
+
+    <form>
+      <label for="product">Product</label>
+      <br />
+      <!-- multiple is optional -->
+      <select name="product" id="product" multiple size="2">
+        <option value="Iphone">Iphone</option>
+        <!-- selected is default selected option -->
+        <option value="iMac" selected>iMac</option>
+        <option value="macbook">macbook</option>
+        <option value="macbook-pro">macbook-pro</option>
+      </select>
+      <br />
+      <!-- textbox for text to be entered -->
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter your issue"
+        rows="4"
+        cols="40"
+      ></textarea>
+
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
